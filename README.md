@@ -17,3 +17,5 @@ urls:
 ^api/ ^ ^\.(?P<format>[a-z0-9]+)/?$ [name='api-root']
 ^api/ ^auth/
 ^api/ register/ [name='register']
+^api/auth/login
+^api/auth/logout
